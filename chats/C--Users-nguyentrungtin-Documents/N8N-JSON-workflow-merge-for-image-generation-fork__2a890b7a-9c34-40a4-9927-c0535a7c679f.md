@@ -1,13 +1,12 @@
-﻿# N8N JSON workflow merge for image generation
+﻿# N8N JSON workflow merge for image generation (fork)
 
-- Phien: e91dd02b-4f9b-4b56-a6b8-e1af9e76de03
+- Phien: 2a890b7a-9c34-40a4-9927-c0535a7c679f
 - Project: C--Users-nguyentrungtin-Documents
 - Cap nhat: 2026-06-15 14:55
 
 ## File da tao / sua trong phien nay
 - C:\Users\nguyentrungtin\Documents\n8n-hybrid-image-workflow.json
 - C:\Users\nguyentrungtin\Documents\n8n-hybrid-image-workflow-v2.json
-- C:\Users\nguyentrungtin\Documents\n8n-chat-summary.md
 
 ---
 
@@ -1226,31 +1225,3 @@ Bạn muốn tôi tạo thêm một **bản "sạch"** đã gỡ hết credentia
 ## Nguoi dung
 
 Ko, tôi muốn đọc nội dung đonạ chat này ở 1 file trên máy
-
----
-
-## Claude
-
-Bạn muốn lưu lại toàn bộ nội dung đoạn chat này thành một file trên máy để đọc. Tôi sẽ ghi lại các điểm chính của cuộc trao đổi vào một file Markdown:
-
----
-
-## Claude
-
-*[Thao tac file: Write -> C:\Users\nguyentrungtin\Documents\n8n-chat-summary.md]*
-
----
-
-## Claude
-
-Đã lưu xong. File tóm tắt toàn bộ phiên chat nằm tại:
-
-**`C:\Users\nguyentrungtin\Documents\n8n-chat-summary.md`** → [n8n-chat-summary.md](n8n-chat-summary.md)
-
-Nội dung gồm 7 phần: bối cảnh/mục tiêu, phân tích 2 bộ code, giải pháp hybrid, lỗi Merge treo, lỗi "Referenced node doesn't exist", lỗi ngrok hết băng thông, và danh sách file đã tạo.
-
-Mở đọc bằng cách: double-click file (mở bằng trình đọc Markdown nếu có), hoặc mở bằng Notepad/VS Code. Nếu muốn dạng dễ đọc hơn tôi có thể:
-- Xuất ra **file Word (.docx)** hoặc **PDF**, hoặc
-- Mở Explorer ngay tại file để bạn click.
-
-Bạn cần bản nào không?
