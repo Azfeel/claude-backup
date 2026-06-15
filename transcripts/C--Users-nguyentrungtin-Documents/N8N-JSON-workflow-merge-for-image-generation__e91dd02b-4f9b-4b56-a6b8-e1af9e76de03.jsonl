@@ -112,3 +112,5 @@
 {"parentUuid":"ac08c8dd-dc5f-41f0-8975-2146eecf0fc4","isSidechain":false,"promptId":"7ebbb78e-99b9-4ff5-b11b-cd3f8397b40b","type":"user","message":{"role":"user","content":[{"type":"text","text":"[Request interrupted by user]"}]},"uuid":"2b71ca93-a0d9-4900-9629-9fd47cda56d6","timestamp":"2026-06-12T08:05:24.396Z","userType":"external","entrypoint":"claude-desktop","cwd":"C:\\Users\\nguyentrungtin\\Documents","sessionId":"e91dd02b-4f9b-4b56-a6b8-e1af9e76de03","version":"2.1.170","gitBranch":"HEAD"}
 {"type":"ai-title","aiTitle":"Merge reference image detail and style consistency workflows","sessionId":"e91dd02b-4f9b-4b56-a6b8-e1af9e76de03"}
 {"type":"mode","mode":"normal","sessionId":"e91dd02b-4f9b-4b56-a6b8-e1af9e76de03"}
+{"type":"ai-title","aiTitle":"Merge reference image detail and style consistency workflows","sessionId":"e91dd02b-4f9b-4b56-a6b8-e1af9e76de03"}
+{"type":"mode","mode":"normal","sessionId":"e91dd02b-4f9b-4b56-a6b8-e1af9e76de03"}
