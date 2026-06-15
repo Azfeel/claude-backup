@@ -2,7 +2,7 @@
 
 - Phien: e91dd02b-4f9b-4b56-a6b8-e1af9e76de03
 - Project: C--Users-nguyentrungtin-Documents
-- Cap nhat: 2026-06-15 14:11
+- Cap nhat: 2026-06-15 14:49
 
 ## File da tao / sua trong phien nay
 - C:\Users\nguyentrungtin\Documents\n8n-hybrid-image-workflow.json
@@ -1175,3 +1175,47 @@ Thay vì xoay key khi hết quota, dùng **Cloudflare Tunnel (không có cap bă
 ## Nguoi dung
 
 [Request interrupted by user]
+
+---
+
+## Claude
+
+No response requested.
+
+---
+
+## Nguoi dung
+
+Làm sao tôi share được file này?
+
+---
+
+## Claude
+
+Bạn muốn share file workflow JSON tôi đã tạo ([n8n-hybrid-image-workflow-v2.json](n8n-hybrid-image-workflow-v2.json), nằm trong `C:\Users\nguyentrungtin\Documents`). Có vài cách tùy mục đích:
+
+## Cách 1 — Mở thư mục chứa file để bạn tự gửi (nhanh nhất)
+Tôi mở Explorer ngay tại file cho bạn kéo-thả vào Zalo/Telegram/email:
+
+---
+
+## Claude
+
+Explorer vừa mở và bôi xanh sẵn file `n8n-hybrid-image-workflow-v2.json`. Giờ bạn chỉ cần kéo file đó vào khung chat Zalo/Telegram/Messenger hoặc đính kèm vào email là gửi được.
+
+## Các cách share khác tùy nhu cầu
+
+| Mục đích | Cách làm |
+|---|---|
+| **Gửi cho người khác import vào n8n** | Đính kèm file `.json` qua Zalo/Telegram/email — họ chỉ cần vào n8n → **Import from File** → chọn file. ⚠️ Xem cảnh báo bảo mật bên dưới. |
+| **Chia sẻ link (Google Drive)** | Upload file lên Drive → chuột phải → Share → "Anyone with the link – Viewer" → copy link |
+| **Dán nội dung trực tiếp** | Mở file bằng Notepad → Ctrl+A → Ctrl+C → dán vào n8n (n8n cho phép **Import from URL/Clipboard**). Hợp khi gửi nhanh qua chat. |
+
+## ⚠️ Lưu ý bảo mật quan trọng trước khi share
+
+File workflow này **có nhúng ID credential** (OpenAI, Telegram, Pinterest OAuth, Firecrawl, Gemini header auth) và **Chat ID Telegram `6587544701`**. File export của n8n **không chứa mật khẩu/token thật** (chỉ chứa ID tham chiếu), nên tương đối an toàn — người nhận sẽ phải tự gắn credential của họ. Nhưng nếu là người ngoài, bạn nên:
+
+- Xóa khối `"credentials"` và đổi `Chat ID` về rỗng trước khi gửi, hoặc
+- Báo người nhận rằng các credential trong file là của bạn, họ cần thay bằng tài khoản riêng.
+
+Bạn muốn tôi tạo thêm một **bản "sạch"** đã gỡ hết credential và Chat ID để share công khai an toàn không?
