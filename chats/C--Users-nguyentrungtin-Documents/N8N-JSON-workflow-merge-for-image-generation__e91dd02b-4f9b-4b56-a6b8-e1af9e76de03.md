@@ -2,7 +2,7 @@
 
 - Phien: e91dd02b-4f9b-4b56-a6b8-e1af9e76de03
 - Project: C--Users-nguyentrungtin-Documents
-- Cap nhat: 2026-06-15 14:55
+- Cap nhat: 2026-07-01 14:07
 
 ## File da tao / sua trong phien nay
 - C:\Users\nguyentrungtin\Documents\n8n-hybrid-image-workflow.json
